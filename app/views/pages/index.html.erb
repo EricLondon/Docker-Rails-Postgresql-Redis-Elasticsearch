@@ -1,0 +1,18 @@
+<h2>Test Status</h2>
+
+<pre>
+# Redis counter:
+<%= @increment_count %>
+
+# Redis keys:
+<%= @redis_keys.join("\n") %>
+
+# Model data:
+<%= JSON.pretty_generate(@test_models.map(&:attributes)) %>
+
+# Index mapping:
+<%= JSON.pretty_generate(@index_mapping) %>
+
+# Search results:
+<%= JSON.pretty_generate(@search_results) %>
+</pre>
