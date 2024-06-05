@@ -70,7 +70,7 @@ GEM
       activesupport (> 3)
       elasticsearch (~> 8)
       hashie
-    elasticsearch-rails (5.0.2)
+    elasticsearch-rails (8.0.0)
     erubis (2.7.0)
     execjs (2.9.1)
     faraday (2.9.0)
